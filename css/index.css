@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: transparent url("/assets/images/mobile/fixed_bg.png") 0% 0% no-repeat padding-box;
+  top: -51px;
+  left: 0px;
+  width: 375px;
+  height: 1149px;
+  font-family: "Assistant", sans-serif;
+}
+
+.title {
+  color: #3A61A0;
+  font-size: 24px;
+  text-align: center;
+  margin: 30px 0;
+}
