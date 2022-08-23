@@ -1,1 +1,9 @@
-$color-blue:#3A61A0
+$color-blue: #3a61a0;
+$color-grey: #9a9b9c;
+$color-red: #e66349;
+$color-green: #7fb457;
+
+@mixin container-sm {
+  width: 80%;
+  margin: auto;
+}
