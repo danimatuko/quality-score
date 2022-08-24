@@ -57,6 +57,7 @@ body {
     height: 34px;
     color: $color-grey;
     font-weight: bold;
+    flex: 1;
 
     &.selected {
       background-color: $color-blue;

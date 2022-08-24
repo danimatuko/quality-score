@@ -53,6 +53,7 @@ body {
   height: 34px;
   color: #9a9b9c;
   font-weight: bold;
+  flex: 1;
 }
 .btn-group button.selected {
   background-color: #3a61a0;
