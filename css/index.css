@@ -129,6 +129,9 @@ body {
   margin-top: 0.5rem;
   font-weight: bold;
 }
+.plan-showcase .cta:disabled {
+  background-color: #9a9b9c;
+}
 .plan-showcase .best-seller {
   position: relative;
 }

@@ -93,7 +93,7 @@ body {
   }
   p {
     margin-top: 0.5rem;
-    span{
+    span {
       color: $color-blue;
     }
   }
@@ -141,6 +141,10 @@ body {
     background-color: $color-green;
     margin-top: 0.5rem;
     font-weight: bold;
+
+    &:disabled {
+      background-color: $color-grey;
+    }
   }
 
   .best-seller {
