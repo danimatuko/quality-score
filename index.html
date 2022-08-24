@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/index.css" />
-    <script src="./app.js" defer></script>
+    <script src="./app.js" defer type="module"></script>
     <title>Document</title>
   </head>
   <body>
@@ -97,7 +97,12 @@
         <span> $72.00</span>
       </div>
       <div>FREE US SHIPPING</div>
-      <button class="cta" disabled>BUY NOW</button>
+      <button
+        class="cta"
+        disabled
+        data-url="https://www.tracker.com/subscribe-link-1">
+        BUY NOW
+      </button>
     </div>
 
     <!-- footer -->
